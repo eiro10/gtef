@@ -1,4 +1,4 @@
-SUBDIRS = gtef po tests testsuite docs
+SUBDIRS = data gtef po tests testsuite docs
 
 pkgconfig_DATA = gtef-$(GTEF_API_VERSION).pc
 DISTCLEANFILES = $(pkgconfig_DATA)
@@ -36,6 +36,7 @@ MAINTAINERCLEANFILES = \
 	m4/gettext.m4 \
 	m4/glibc21.m4 \
 	m4/glibc2.m4 \
+	m4/gsettings.m4 \
 	m4/gtk-doc.m4 \
 	m4/iconv.m4 \
 	m4/intdiv0.m4 \

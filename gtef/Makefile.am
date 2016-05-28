@@ -31,12 +31,14 @@ gtef_public_c_files =			\
 gtef_private_headers =			\
 	gtef-io-error-info-bar.h	\
 	gtef-progress-info-bar.h	\
+	gtef-settings.h			\
 	gtef-utils.h
 
 gtef_private_c_files =			\
 	gtef-init.c			\
 	gtef-io-error-info-bar.c	\
 	gtef-progress-info-bar.c	\
+	gtef-settings.c			\
 	gtef-utils.c
 
 # Helper Libtool library, so that the private functions can be used in unit

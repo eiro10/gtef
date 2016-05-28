@@ -1,4 +1,5 @@
 # List of source files containing translatable strings.
+data/org.gnome.gtef.gschema.xml.in
 gtef/gtef-buffer.c
 gtef/gtef-file.c
 gtef/gtef-info-bar.c

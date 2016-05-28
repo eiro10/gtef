@@ -27,6 +27,7 @@ IGNORE_HFILES =				\
 	gtef.h				\
 	gtef-io-error-info-bar.h	\
 	gtef-progress-info-bar.h	\
+	gtef-settings.h			\
 	gtef-utils.h
 
 # Extra options to supply to gtkdoc-mkdb

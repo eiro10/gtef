@@ -127,10 +127,16 @@ VAPIGEN_CHECK
 AX_REQUIRE_DEFINED([AX_CODE_COVERAGE])
 AX_CODE_COVERAGE()
 
+# GSettings
+AX_REQUIRE_DEFINED([GLIB_GSETTINGS])
+GLIB_GSETTINGS
+
 # Output files
 AC_CONFIG_FILES([
 	gtef-${GTEF_API_VERSION}.pc:gtef.pc.in
 	Makefile
+	data/Makefile
+	data/org.gnome.gtef.gschema.xml
 	docs/Makefile
 	docs/reference/gtef-docs.xml
 	docs/reference/Makefile

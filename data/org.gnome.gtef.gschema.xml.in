@@ -1,0 +1,14 @@
+<schemalist>
+  <schema gettext-domain="@GETTEXT_PACKAGE@" id="org.gnome.gtef" path="/org/gnome/gtef/">
+    <child name="preferences" schema="org.gnome.gtef.preferences"/>
+  </schema>
+  <schema gettext-domain="@GETTEXT_PACKAGE@" id="org.gnome.gtef.preferences" path="/org/gnome/gtef/preferences/">
+    <key name="candidate-encodings" type="as">
+      <default>['']</default>
+      <summary>Candidate Encodings</summary>
+      <description>List of candidate encodings shown in the Character Encoding menu in the open/save file chooser.
+      'CURRENT' represents the current locale encoding. Only recognized encodings are used.
+      The default value is the empty list, in which case Gtef will choose good defaults depending on the current locale.</description>
+    </key>
+  </schema>
+</schemalist>
